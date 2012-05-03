@@ -1,17 +1,23 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
+  <head>
+  
+    <link rel=StyleSheet href="css/main.css" type="text/css" media=screen>
+  
+  </head>
+
   <body>
     <div id="header">
-      <h1 style="text-align:center; color:purple">This is an H1</h1>
+      <h1>This is an H1</h1>
     </div>
     <!-- <div id="main"> -->
-      <div id="main" style="overflow:auto; width:100%">
+      <div id="main">
 
-      <h2 style="text-align:center; color:orange">This is an H2</h2>
-      <h3 style="text-align:center; color:blue">This is an H3</h3>
+      <h2>This is an H2</h2>
+      <h3>This is an H3</h3>
 
-      <div id="left_sidebar" style="float:left; width:30%; margin-right:40px; background-color:rgba(255,255,255,0.65)">
+      <div id="left_sidebar">
         <p>This should apear on the left:</p>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac enim a nunc volutpat ultricies at id nunc. Proin mattis enim eget velit tincidunt dapibus sed non justo. Donec vitae mi urna, in rhoncus diam. Sed elit felis, mattis quis pharetra et, iaculis in elit. Duis ipsum urna, aliquet malesuada auctor a, porta eget libero. Praesent condimentum eros bibendum nibh scelerisque ultrices in id ipsum. Donec pellentesque metus sed turpis elementum mollis. Curabitur ante mauris, volutpat at feugiat nec, condimentum vitae magna. Proin eget neque nulla, non mollis ipsum. Nulla facilisis, urna sed ornare tincidunt, risus diam vulputate neque, at scelerisque mi velit ac urna. Donec egestas aliquam ante. Nulla at ligula eu purus convallis scelerisque. Quisque eu tortor non neque mollis sollicitudin. Nulla facilisi. Donec consectetur sapien tincidunt nunc vehicula eu pulvinar magna commodo. Phasellus molestie mauris vitae orci ultrices dapibus.</p>
@@ -19,29 +25,29 @@
         <p>Integer accumsan purus diam. Cras non sapien libero. In hac habitasse platea dictumst. Nullam porta interdum odio, ac volutpat ipsum eleifend quis. In consequat semper tempus. Duis dictum malesuada massa a lacinia. Donec elementum, erat et auctor volutpat, mi sem ultrices ligula, sed euismod ligula est eu velit. Ut semper augue et orci auctor id placerat tortor elementum.</p>
       </div> <!-- end left_sidebar -->
 
-      <div id="right_sidebar" style="float:right; width:30%; background-color:#EC9; height:400px">
+      <div id="right_sidebar">
         <p>This should apear on the right</p>
       </div> <!-- end right_sidebar -->
 
-      <div class="content_div" style="margin:auto; width:50%;">
+      <div class="content">
         <p>This is a paragraph tag where you put all kinds of text</p>
         <p>It is generally a bad idea to put untagged text into html</p>
         
-        <img src="img/darling.jpg" title="Ryan's Favorite Image" alt="Ryan't Favorite Image" width="180" height="200" style="display:block; margin:auto;"/>
+        <img src="img/darling.jpg" title="Ryan's Favorite Image" alt="Ryan't Favorite Image"/>
 
-        <ul style="list-style-type: circle">
-          <li style="background-color:#C6C6C6">This is an unordered this</li>
+        <ul>
+          <li class="odd">This is an unordered this</li>
           <li>This is an unordered this</li>
-          <li style="background-color:#C6C6C6"><a href="another_page.html" style="color:#FC0585">This</a> is a link to another page</li>
+          <li class="odd"><a href="another_page.html" class="pink">This</a> is a link to another page</li>
         </ul>
 
         <ol>
-          <li style="background-color:#C6C6C6">This is an ordered this</li>
+          <li class="odd">This is an ordered this</li>
           <li>This is an ordered this</li>
-          <li style="background-color:#C6C6C6">This is an ordered this</li>
+          <li class="odd">This is an ordered this</li>
         </ol>
 
-        <p class="scroll" style="background-color:black; color:white; border:5px dashed brown; padding:5px; position:fixed; top:50px; right: 30px;">This should scroll <span class="bold" style="font-weight:bold; color:red;">BOLD</span> with the page</p>
+        <p class="scroll">This should scroll <span class="bold">BOLD</span> with the page</p>
 
       </div> <!-- end content_div -->
     </div> <!-- end main -->
